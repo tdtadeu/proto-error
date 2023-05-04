@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package mypackage;
+
+import public "mypackage/status.proto";
+import public "mypackage/leg_status.proto";
+import public "mypackage/arm_status.proto";

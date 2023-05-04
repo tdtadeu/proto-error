@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package mypackage.person;
+
+import "shared.proto";
+
+message Person {
+  mypackage.arm_status.ArmStatus arm_status = 1;
+  mypackage.leg_status.LegStatus leg_status = 2;
+  mypackage.status.Status status = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package mypackage.leg_status;
+
+enum LegStatus {
+  unknown = 0;
+  up = 1;
+  down = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package mypackage.status;
+
+enum Status {
+  unknown = 0;
+  awake = 1;
+  sleeping = 2;
+}
